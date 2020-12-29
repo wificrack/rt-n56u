@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title><#Web_Title#> - 菜单设置</title>
+<title><#Web_Title#> - <#menu5_22_1#></title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="-1">
@@ -130,16 +130,16 @@ function applyRule(){
 				<div class="row-fluid">
 					<div class="span12">
 						<div class="box well grad_colour_dark_blue">
-							<h2 class="box_head round_top">自定义菜单选项</h2>
+							<h2 class="box_head round_top"><#menu5_10#> - <#menu5_22_1#></h2>
 							<div class="round_bottom">
 								<div class="row-fluid">
 									<div id="tabMenu" class="submenuBlock"></div>
-									<div class="alert alert-info" style="margin: 10px;">把你不想在网页上显示的菜单选项关闭，适用于重度强迫症......<br />
-									<div>此选项只能屏蔽页面的显示，并不会删除程序。</div>
+									<div class="alert alert-info" style="margin: 10px;"><#menu5_22_1_1#><br />
+									<div><#menu5_22_1_2#></div>
 									</div>
 									<table width="100%" align="center" cellpadding="4" cellspacing="0" class="table">
 										<tr >
-											<th width="50%">VPN服务器</th>
+											<th width="50%"><#menu5_22_1_3#></th>
 											<td>
 													<div class="main_itoggle">
 													<div id="w_vpn_s_on_of">
@@ -153,7 +153,7 @@ function applyRule(){
 											</td>
 										</tr>
 																				<tr >
-											<th width="50%">VPN客户端</th>
+											<th width="50%"><#menu5_22_1_4#></th>
 											<td>
 													<div class="main_itoggle">
 													<div id="w_vpn_c_on_of">
@@ -167,7 +167,7 @@ function applyRule(){
 											</td>
 										</tr>
 										<tr >
-											<th width="50%">网络流量</th>
+											<th width="50%"><#menu5_22_1_5#></th>
 											<td>
 													<div class="main_itoggle">
 													<div id="w_wnet_on_of">
@@ -181,7 +181,7 @@ function applyRule(){
 											</td>
 										</tr>
 										<tr >
-											<th width="50%">系统信息</th>
+											<th width="50%"><#menu5_22_1_6#></th>
 											<td>
 													<div class="main_itoggle">
 													<div id="w_sys_on_of">
@@ -195,7 +195,7 @@ function applyRule(){
 											</td>
 										</tr>
 										<tr >
-											<th width="50%">USB应用</th>
+											<th width="50%"><#menu5_22_1_7#></th>
 											<td>
 													<div class="main_itoggle">
 													<div id="w_usb_on_of">
@@ -209,7 +209,7 @@ function applyRule(){
 											</td>
 										</tr>
 										<tr >
-											<th width="50%">网络信息</th>
+											<th width="50%"><#menu5_22_1_8#></th>
 											<td>
 													<div class="main_itoggle">
 													<div id="w_net_on_of">
@@ -223,7 +223,7 @@ function applyRule(){
 											</td>
 										</tr>
 										<tr >
-											<th width="50%">系统日志</th>
+											<th width="50%"><#menu5_22_1_9#></th>
 											<td>
 													<div class="main_itoggle">
 													<div id="w_log_on_of">
