@@ -501,7 +501,7 @@ function changeBgColor(obj, num){
                                             <th colspan="2" style="background-color: #E3E3E3;"><#t2Advanced#></th>
                                         </tr>
 										<tr>
-                                            <th width="50%"><a class="help_tooltip" href="javascript:void(0);" onmouseover="openTooltip(this,5,13);">禁止解析IPv6 DNS记录</a></th>
+                                            <th width="50%"><a class="help_tooltip" href="javascript:void(0);" onmouseover="openTooltip(this,5,13);"><#menu5_2_2_1#></a></th>
                                             <td>
                                                 <div class="main_itoggle">
                                                     <div id="dhcp_filter_aaa_on_of">
@@ -516,7 +516,7 @@ function changeBgColor(obj, num){
                                             </td>
                                         </tr>
 										<tr>
-                                            <th><a class="help_tooltip" href="javascript:void(0);" onmouseover="openTooltip(this,5,14);">客户端缓存的最小DNS TTL</a></th>
+                                            <th><a class="help_tooltip" href="javascript:void(0);" onmouseover="openTooltip(this,5,14);"><#menu5_2_2_3#></a></th>
                                             <td>
                                                 <input type="text" maxlength="15" class="input" size="15" name="dhcp_min_ttl" value="<% nvram_get_x("", "dhcp_min_ttl"); %>" />
                                             </td>
@@ -542,9 +542,9 @@ function changeBgColor(obj, num){
                                         </tr>
                                         <tr id="row_dservers">
                                             <td colspan="2">
-                                                <a href="javascript:spoiler_toggle('spoiler_dservers')"><span><#CustomConf#> "dhcp.conf"</span></a>
+                                                <a href="javascript:spoiler_toggle('spoiler_dservers')"><span><#CustomConf#> "dnsmasq.servers"</span></a>
                                                 <div id="spoiler_dservers" style="display:none;">
-                                                    <textarea rows="16" wrap="off" spellcheck="false" maxlength="16384" class="span12" name="dnsmasq.dhcp.conf" style="font-family:'Courier New'; font-size:12px;"><% nvram_dump("dnsmasq.dhcp.conf",""); %></textarea>
+                                                    <textarea rows="16" wrap="off" spellcheck="false" maxlength="16384" class="span12" name="dnsmasq.dnsmasq.servers" style="font-family:'Courier New'; font-size:12px;"><% nvram_dump("dnsmasq.dnsmasq.servers",""); %></textarea>
                                                 </div>
                                             </td>
                                         </tr>
