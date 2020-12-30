@@ -1,17 +1,5 @@
 [Language type]
 LANG_EN=English
-LANG_CZ=Česky
-LANG_PL=Polski
-LANG_RU=Pусский
-LANG_DE=Deutsch
-LANG_FR=Français
-LANG_NO=Norsk
-LANG_FI=Finsk
-LANG_DA=Dansk
-LANG_SV=Svensk
-LANG_BR=Brazil
-LANG_ES=Español
-LANG_UK=Українська
 PASS_LANG=Выбор языка Web интерфейса:
 VPN_PPTP_Passthrough=Пропускать пакеты PPTP?
 VPN_L2TP_Passthrough=Пропускать пакеты L2TP?
