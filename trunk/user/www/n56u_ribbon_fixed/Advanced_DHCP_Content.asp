@@ -501,7 +501,7 @@ function changeBgColor(obj, num){
                                             <th colspan="2" style="background-color: #E3E3E3;"><#t2Advanced#></th>
                                         </tr>
 										<tr>
-                                            <th width="50%"><a class="help_tooltip" href="javascript:void(0);" onmouseover="openTooltip(this,5,13);"><#menu5_2_2_1#></a></th>
+                                            <th width="50%"><a class="help_tooltip" href="javascript:void(0);" onmouseover="openTooltip(this,5,13);">Disable resolution of IPv6 DNS records</a></th>
                                             <td>
                                                 <div class="main_itoggle">
                                                     <div id="dhcp_filter_aaa_on_of">
@@ -516,7 +516,7 @@ function changeBgColor(obj, num){
                                             </td>
                                         </tr>
 										<tr>
-                                            <th><a class="help_tooltip" href="javascript:void(0);" onmouseover="openTooltip(this,5,14);"><#menu5_2_2_3#></a></th>
+                                            <th><a class="help_tooltip" href="javascript:void(0);" onmouseover="openTooltip(this,5,14);">Minimum DNS TTL for client cache</a></th>
                                             <td>
                                                 <input type="text" maxlength="15" class="input" size="15" name="dhcp_min_ttl" value="<% nvram_get_x("", "dhcp_min_ttl"); %>" />
                                             </td>
