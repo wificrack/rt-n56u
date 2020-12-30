@@ -478,7 +478,7 @@ function updateDateTime()
                                         </tr>
 										<tr id="reboot_schedule_enable_tr">
 				                        <tr>
-                                            <th><#reboot_schedule_enable#></th>
+                                            <th>Enable timed restart</th>
                                             <td>
                                                 <div class="main_itoggle">
                                                     <div id="reboot_schedule_enable_on_of">
@@ -493,22 +493,22 @@ function updateDateTime()
                                             </td>
                                         </tr>
 				<tr id="reboot_schedule_date_tr">
-					<th><#reboot_schedule_date#></th>
+					<th>Automatic reboot of the week</th>
 					<td>
-						<input type="checkbox" name="reboot_date_x_Sun" class="input" onclick="check_Timefield_checkbox();"><#reboot_date_x_Sun#>
-						<input type="checkbox" name="reboot_date_x_Mon" class="input" onclick="check_Timefield_checkbox();"><#reboot_date_x_Mon#>
-						<input type="checkbox" name="reboot_date_x_Tue" class="input" onclick="check_Timefield_checkbox();"><#reboot_date_x_Tue#>
-						<input type="checkbox" name="reboot_date_x_Wed" class="input" onclick="check_Timefield_checkbox();"><#reboot_date_x_Wed#>
-						<input type="checkbox" name="reboot_date_x_Thu" class="input" onclick="check_Timefield_checkbox();"><#reboot_date_x_Thu#>
-						<input type="checkbox" name="reboot_date_x_Fri" class="input" onclick="check_Timefield_checkbox();"><#reboot_date_x_Fri#>
-						<input type="checkbox" name="reboot_date_x_Sat" class="input" onclick="check_Timefield_checkbox();"><#reboot_date_x_Sat#>
+						<input type="checkbox" name="reboot_date_x_Sun" class="input" onclick="check_Timefield_checkbox();">Sun
+						<input type="checkbox" name="reboot_date_x_Mon" class="input" onclick="check_Timefield_checkbox();">Mon
+						<input type="checkbox" name="reboot_date_x_Tue" class="input" onclick="check_Timefield_checkbox();">Tue
+						<input type="checkbox" name="reboot_date_x_Wed" class="input" onclick="check_Timefield_checkbox();">Wed
+						<input type="checkbox" name="reboot_date_x_Thu" class="input" onclick="check_Timefield_checkbox();">Thu
+						<input type="checkbox" name="reboot_date_x_Fri" class="input" onclick="check_Timefield_checkbox();">Fri
+						<input type="checkbox" name="reboot_date_x_Sat" class="input" onclick="check_Timefield_checkbox();">Sat
 					</td>
 				</tr>
 				<tr id="reboot_schedule_time_tr">
-					<th><#reboot_schedule_time#></th>
+					<th>Auto restart time</th>
 					<td>
-						<input type="text" maxlength="2" class="input_3_table" style="width: 30px" name="reboot_time_x_hour" onKeyPress="return validator.isNumber(this,event);" onblur="validator.timeRange(this, 0);" autocorrect="off" autocapitalize="off"><#reboot_time_x_Hour#>:
-						<input type="text" maxlength="2" class="input_3_table" style="width: 30px" name="reboot_time_x_min" onKeyPress="return validator.isNumber(this,event);" onblur="validator.timeRange(this, 1);" autocorrect="off" autocapitalize="off"><#reboot_time_x_Min#>
+						<input type="text" maxlength="2" class="input_3_table" style="width: 30px" name="reboot_time_x_hour" onKeyPress="return validator.isNumber(this,event);" onblur="validator.timeRange(this, 0);" autocorrect="off" autocapitalize="off">hh:
+						<input type="text" maxlength="2" class="input_3_table" style="width: 30px" name="reboot_time_x_min" onKeyPress="return validator.isNumber(this,event);" onblur="validator.timeRange(this, 1);" autocorrect="off" autocapitalize="off">mm
 					</td>
 				</tr>
                                         <tr>
