@@ -1,6 +1,5 @@
 [Language type]
 LANG_EN=English
-LANG_RU=Pусский
 PASS_LANG=Select WebUI Language:
 VPN_PPTP_Passthrough=PPTP Passthrough?
 VPN_L2TP_Passthrough=L2TP Passthrough?
