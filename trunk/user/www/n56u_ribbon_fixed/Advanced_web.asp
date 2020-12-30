@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title><#Web_Title#> - <#menu5_22_1#></title>
+<title><#Web_Title#> - Menu Settings</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="-1">
@@ -130,16 +130,16 @@ function applyRule(){
 				<div class="row-fluid">
 					<div class="span12">
 						<div class="box well grad_colour_dark_blue">
-							<h2 class="box_head round_top"><#menu5_10#> - <#menu5_22_1#></h2>
+							<h2 class="box_head round_top">Custom menu options</h2>
 							<div class="round_bottom">
 								<div class="row-fluid">
 									<div id="tabMenu" class="submenuBlock"></div>
-									<div class="alert alert-info" style="margin: 10px;"><#menu5_22_1_1#><br />
-									<div><#menu5_22_1_2#></div>
+									<div class="alert alert-info" style="margin: 10px;">Turn off the menu option that you do not want to display on the Web page and apply to severe OCD......<br />
+									<div>This option only blocks the display of the page and does not remove the program.</div>
 									</div>
 									<table width="100%" align="center" cellpadding="4" cellspacing="0" class="table">
 										<tr >
-											<th width="50%"><#menu5_22_1_3#></th>
+											<th width="50%">VPN server</th>
 											<td>
 													<div class="main_itoggle">
 													<div id="w_vpn_s_on_of">
@@ -153,7 +153,7 @@ function applyRule(){
 											</td>
 										</tr>
 																				<tr >
-											<th width="50%"><#menu5_22_1_4#></th>
+											<th width="50%">VPN client</th>
 											<td>
 													<div class="main_itoggle">
 													<div id="w_vpn_c_on_of">
@@ -167,7 +167,7 @@ function applyRule(){
 											</td>
 										</tr>
 										<tr >
-											<th width="50%"><#menu5_22_1_5#></th>
+											<th width="50%">Network traffic</th>
 											<td>
 													<div class="main_itoggle">
 													<div id="w_wnet_on_of">
@@ -181,7 +181,7 @@ function applyRule(){
 											</td>
 										</tr>
 										<tr >
-											<th width="50%"><#menu5_22_1_6#></th>
+											<th width="50%">System information</th>
 											<td>
 													<div class="main_itoggle">
 													<div id="w_sys_on_of">
@@ -195,7 +195,7 @@ function applyRule(){
 											</td>
 										</tr>
 										<tr >
-											<th width="50%"><#menu5_22_1_7#></th>
+											<th width="50%">USB applications</th>
 											<td>
 													<div class="main_itoggle">
 													<div id="w_usb_on_of">
@@ -209,7 +209,7 @@ function applyRule(){
 											</td>
 										</tr>
 										<tr >
-											<th width="50%"><#menu5_22_1_8#></th>
+											<th width="50%">Network information</th>
 											<td>
 													<div class="main_itoggle">
 													<div id="w_net_on_of">
@@ -223,7 +223,7 @@ function applyRule(){
 											</td>
 										</tr>
 										<tr >
-											<th width="50%"><#menu5_22_1_9#></th>
+											<th width="50%">System logs</th>
 											<td>
 													<div class="main_itoggle">
 													<div id="w_log_on_of">
@@ -266,7 +266,7 @@ function applyRule(){
 											</td>
 										</tr>
 										<tr id="row_wss" style="display:none">
-											<th width="50%">科学上网</th>
+											<th width="50%">Science online</th>
 											<td>
 													<div class="main_itoggle">
 													<div id="w_ss_on_of">
@@ -294,7 +294,7 @@ function applyRule(){
 											</td>
 										</tr>
 										<tr id="row_wadbyby" style="display:none">
-											<th width="50%">广告管理</th>
+											<th width="50%">Advertising management</th>
 											<td>
 													<div class="main_itoggle">
 													<div id="w_adbyby_on_of">
@@ -308,7 +308,7 @@ function applyRule(){
 											</td>
 										</tr>
 										<tr id="row_wpdnsd" style="display:none">
-											<th width="50%" >DNS加速</th>
+											<th width="50%" >DNS acceleration</th>
 											<td>
 													<div class="main_itoggle">
 													<div id="w_pdnsd_on_of">
