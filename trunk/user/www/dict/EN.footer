@@ -1,5 +1,4 @@
 [Language type]
-LANG_EN=English
 PASS_LANG=Select WebUI Language:
 VPN_PPTP_Passthrough=PPTP Passthrough?
 VPN_L2TP_Passthrough=L2TP Passthrough?
@@ -1119,7 +1118,7 @@ DiskStatus_refresh1=I have plugged USB Disk,
 DiskStatus_refresh2=renew
 DiskStatus_refresh3= the system status.
 EZQoS=EZQoS bandwidth Management
-footer_copyright_desc=© 2011-2019 <a href="https://bitbucket.org/padavan/rt-n56u" target="blank">Padavan</a> & N56U project community & by <a href="https://github.com/hanwckf/rt-n56u" target="blank">hanwckf</a>
+footer_copyright_desc=© 2011-2021 Padavan & N56U project community & by hanwckf
 Help_button_default_hint=Click to open help.
 Help_init_word1=Help provides you with guidelines and information about using the router's functions. Click the
 Help_init_word2=hyperlinked words with yellow and blue underline.
