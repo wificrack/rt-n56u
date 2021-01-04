@@ -46,7 +46,7 @@
 
 #define DEF_ROOT_PASSWORD	"admin"
 #define DEF_SMB_WORKGROUP	"WORKGROUP"
-#define DEF_TIMEZONE		"UTC+7"
+#define DEF_TIMEZONE		"GMT+07:00"
 #define DEF_NTP_SERVER0		"0.vn.pool.ntp.org"
 #define DEF_NTP_SERVER1		"1.vn.pool.ntp.org"
 #ifdef SUPPORT_OPENSSL_EC
