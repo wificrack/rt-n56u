@@ -23,8 +23,8 @@ helpcontent[5] = new Array("",
 				"<#LANHostConfig_x_WINSServer_itemdesc#>",
 				"<#LANHostConfig_ManualDHCPEnable_itemdesc#>",
 				"<#LANHostConfig_x_LDNSServer6_itemdesc#>",
-				"Filter out IPv6 (AAAA) and return only IPv4 DNS domain name records",
-				"Modify the TTL time of the domain name record sent to the client (maximum 864000, 0 means no modification)");
+				"<#menu5_2_2_2#>",
+				"<#menu5_2_2_4#>");
 helpcontent[6] = new Array("",
 				"<#RHELP_desc4#>",
 				"<#RHELP_desc5#>",
