@@ -24,7 +24,7 @@ helpcontent[5] = new Array("",
 				"<#LANHostConfig_ManualDHCPEnable_itemdesc#>",
 				"<#LANHostConfig_x_LDNSServer6_itemdesc#>",
 				"Filter out IPv6 (AAAA) and return only IPv4 DNS domain name records",
-				"修改发送到客户端的域名记录的 TTL 时间 (最大 864000, 0 表示不修改)");
+				"Modify the TTL time of the domain name record sent to the client (maximum 864000, 0 means no modification)");
 helpcontent[6] = new Array("",
 				"<#RHELP_desc4#>",
 				"<#RHELP_desc5#>",
