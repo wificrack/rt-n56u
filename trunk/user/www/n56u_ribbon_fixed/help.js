@@ -23,8 +23,8 @@ helpcontent[5] = new Array("",
 				"<#LANHostConfig_x_WINSServer_itemdesc#>",
 				"<#LANHostConfig_ManualDHCPEnable_itemdesc#>",
 				"<#LANHostConfig_x_LDNSServer6_itemdesc#>",
-				"<#menu5_2_2_2#>",
-				"<#menu5_2_2_4#>");
+				"Filter out IPv6 (AAAA) and return only IPv4 DNS domain name records",
+				"修改发送到客户端的域名记录的 TTL 时间 (最大 864000, 0 表示不修改)");
 helpcontent[6] = new Array("",
 				"<#RHELP_desc4#>",
 				"<#RHELP_desc5#>",
