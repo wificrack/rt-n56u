@@ -261,7 +261,7 @@ if [ -n "$CONFIG_MT7628_AP" ] ; then
 	cp -rfL "$dir_wifi_src/rtsoc/$dir_wifi_ver/mt7628_ap" "$dir_wifi_dst/"
 fi
 if [ -n "$CONFIG_MT7615_AP" ] ; then
-	dir_wifi_ver="4.4.2.1"
+	#dir_wifi_ver="4.4.2.1"
 	#if [ "$CONFIG_FIRMWARE_WIFI_DRIVER" = "5.0.3.0" ] || \
 		#[ "$CONFIG_FIRMWARE_WIFI2_DRIVER" = "5.0.3.0" ] || \
 		#[ "$CONFIG_FIRMWARE_WIFI5_DRIVER" = "5.0.3.0" ]; then
